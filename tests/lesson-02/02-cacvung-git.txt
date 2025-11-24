@@ -1,0 +1,14 @@
+Trong một folder mới được tạo ra, mình thực hiện lần lượt các lệnh sau. Hãy liệt kê các
+file theo từng vùng sau khi thao tác một loạt các lệnh sau
+a. Tạo 3 file: file1, file2, file3
+-> Tạo được 3 files: file1, file2, file3
+b. Chạy lệnh: git init
+-> khởi tạo một repository Git mới trong folder hiện tại, tạo working directory by git để quản lí 3 file này
+c. Chạy lệnh: git commit -m”init project”
+-> lỗi, ví các file đang ở working directory chưa vào staging để sẵn sàng cho commit
+d. Chạy lệnh: git add file1
+-> thêm file1 vào staging
+e. Chạy lệnh: git commit -m”add file1”
+-> thêm file1 vào repository với tin nhắn là "add file1"
+f. Chạy lệnh: git commit -m”add file”
+-> lỗi, vì ở vùng staging chưa có gì để commit
