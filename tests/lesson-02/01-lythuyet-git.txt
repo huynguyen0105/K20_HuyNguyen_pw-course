@@ -1,0 +1,6 @@
+Giải thích các câu lệnh sau:
+1. git init               : dùng để khởi tạo một repository Git mới trong folder hiện tại.
+2. git add <file_name>    : add file có tên <file_name> vào vùng stagging.
+3. git add .              : add tất cả các file ở vùng local vào vùng staging.
+4. git commit -m "message": lưu lại phiên bản hiện tại lên vào repo có với tên là "message" sau khi đã được cập nhật thông tin.
+                            (ví dụ: tạo mới, thêm, sửa các files)
