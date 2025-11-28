@@ -1,0 +1,4 @@
+git commit --amend: mở edittor lên để thay message của commit gần nhất
+git commit --amend-m ”<messageEdit>”: thay message của commit gần nhất bằng cái messageEdit
+git restore --staged <file>: Bỏ staging của file.
+git reset HEAD~1: xóa 1 commit mới nhất.
